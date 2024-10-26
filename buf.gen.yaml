@@ -3,7 +3,7 @@ managed:
   enabled: true
   override:
     - file_option: go_package_prefix
-      value: github.com/infraregistrty/proto/gen
+      value: github.com/infraregistry/proto/gen
 plugins:
   - remote: buf.build/protocolbuffers/go
     out: gen
